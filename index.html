@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 07 Normal</title>
+  </head>
+  <body>
+    <h1>Hello, Homework 07 Normal</h1>
+    <p>
+      1. Напишіть веб-додаток для розрахунку об'єму циліндра. Користувач вводить
+      висоту циліндра і діаметр основи.
+    </p>
+    <form id="cylinder-form">
+      <input
+        type="text"
+        autocomplete="off"
+        autofocus="on"
+        placeholder="Введіть висоту циліндра 
+    "
+        id="input-height"
+      />
+      <br />
+      <br />
+
+      <input
+        type="text"
+        autocomplete="off"
+        autofocus="on"
+        placeholder="Введіть діаметр"
+        id="input-diametr"
+      /><br />
+      <br />
+      <input type="submit" value=" Розрахувати" />
+    </form>
+    <p>
+      Об'єм вашого циліндра
+      <span><strong id="volume-cylinder">12</strong></span>
+    </p>
+    <p>
+      2. Привітання Запитайте в користувача його ім'я і виведіть у відповідь:
+      "Привіт, його ім'я!".
+    </p>
+    <p>
+      3. Периметр квадрата Запитайте у користувача довжину сторони квадрата і
+      виведіть периметр такого квадрата.
+    </p>
+    <form id="square-form">
+      <input type="submit" value=" Спитай в мене довжину" />
+    </form>
+    <p>
+      4. Швидкість Запитайте в користувача відстань у км між двома містами та за
+      скільки годин він хоче дістатися. Порахуйте швидкість, з якою необхідно
+      рухатися, щоб встигнути вчасно.
+    </p>
+    <form id="speed-form">
+      <input
+        type="text"
+        autocomplete="off"
+        autofocus="on"
+        placeholder="Введіть км
+    "
+        id="input-km"
+      />
+      <br />
+      <br />
+
+      <input
+        type="text"
+        autocomplete="off"
+        autofocus="on"
+        placeholder="Введіть години"
+        id="input-hour"
+      /><br />
+      <br />
+      <input type="submit" value=" Розрахувати необхідну швидкість" />
+    </form>
+    <p>
+      Необхідна швидкість
+      <span><strong id="need-speed">80</strong> км/год</span>
+    </p>
+    <script src="/js/index.js"></script>
+  </body>
+</html>
