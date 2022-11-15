@@ -8,7 +8,7 @@ function calculateVolume(event) {
     let heightCylinder = document.querySelector("#input-height");
     let diametrCylinder = document.querySelector("#input-diametr");
     alert("Рахую...");
-    let volumeCylinder = 3.14*heightCylinder.value * diametrCylinder.value;
+     let volumeCylinder = Math.round (3.14*heightCylinder.value * diametrCylinder.value);
     let resultVolume = document.querySelector("#volume-cylinder");
     resultVolume.innerHTML = `${volumeCylinder}`;
 };
@@ -35,7 +35,7 @@ function calculateSpeed(event) {
     let distance = document.querySelector("#input-km");
     let hour = document.querySelector("#input-hour");
     alert("Рахую...");
-    let needSpeed = distance.value/hour.value;
+     let needSpeed = Math.round (distance.value/hour.value);
     let resultSpeed = document.querySelector("#need-speed");
     resultSpeed.innerHTML = `${needSpeed}`;
 };
